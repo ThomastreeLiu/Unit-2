@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class FizzBuzz {
     public static void main (String[] args){
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter the number");
+        System.out.println("What number are we going to: ");
         int lastNum = scan.nextInt();
         for (int i = 0;i<=lastNum;i++){
             if (i%3==0&&i%5==0)
