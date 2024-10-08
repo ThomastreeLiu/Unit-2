@@ -1,3 +1,7 @@
+//Author:Thomas
+//Name:FizzBuzz
+//Purpose:counting
+
 import java.util.Scanner;
 public class FizzBuzz {
     public static void main (String[] args){
