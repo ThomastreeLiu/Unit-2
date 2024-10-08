@@ -1,3 +1,7 @@
+//Author:Thomas
+//Name:Daisy
+//Purpose:Love or not
+
 public class Daisy {
     public static void main (String[] args){
         int lastnum = (int)(Math.random()*24)+15;

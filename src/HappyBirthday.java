@@ -1,3 +1,7 @@
+//Author:Thomas
+//Name:HappyBirthday
+//Purpose:celebrate birthday
+
 import java.util.Scanner;
 public class HappyBirthday {
     public static void main(String[] args){
@@ -10,7 +14,7 @@ public class HappyBirthday {
         int year = scan.nextInt();
         for (;age<=year;age++){
             System.out.println(age);
-            System.out.println("Happy Birthday to you, Happy Birthday to you! Happy Birthday dear Dad, Happy Birthday to you! ");
+            System.out.println("Happy Birthday to you, Happy Birthday to you! Happy Birthday dear Dad, Happy Birthday to you! \n");
         }
     }
 }
