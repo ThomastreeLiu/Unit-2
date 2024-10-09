@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class SpeenTest {
+public class SpeedTest {
     public static void main (String[] args){
         Scanner scan = new Scanner(System.in);
         String D = "y";
