@@ -3,7 +3,7 @@ public class SpeedTest {
     public static void main (String[] args){
         Scanner scan = new Scanner(System.in);
         String D = "y";
-        while (D.equals("y")||D.equals("Y")){
+        while (D.equals("y") ||D.equals("Y")){
             System.out.println("Enter the speed limit:");
             int sl = scan.nextInt();
             System.out.println("Enter the recorded speed of the car:");
