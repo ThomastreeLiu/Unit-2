@@ -2,8 +2,8 @@ import java.util.Scanner;
 public class SpeedTest {
     public static void main (String[] args){
         Scanner scan = new Scanner(System.in);
-        String D = "y";
-        while (D.equals("y") ||D.equals("Y")){
+        String cont = "y";
+        while (cont.equals("y")||cont.equals("Y")){
             System.out.println("Enter the speed limit:");
             int sl = scan.nextInt();
             System.out.println("Enter the recorded speed of the car:");
@@ -23,7 +23,7 @@ public class SpeedTest {
             else
                 System.out.println("Not a good value");
             System.out.println("Continue?  (y or n)");
-            D = scan.next();
+            cont = scan.next();
         }
     }
 }
