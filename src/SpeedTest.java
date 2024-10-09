@@ -1,3 +1,7 @@
+//Author:Thomas
+//Name:SpeedTest
+//Purpose:calculate the speed and fine
+
 import java.util.Scanner;
 public class SpeedTest {
     public static void main (String[] args){

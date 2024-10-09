@@ -1,3 +1,7 @@
+//Author:Thomas
+//Name:GuessNum
+//Purpose:guess the number
+
 import java.util.Scanner;
 public class GuessNum{
     public static void main (String args[]){
