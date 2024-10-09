@@ -4,7 +4,7 @@ public class GuessNum{
 
         Scanner scan = new Scanner(System.in);
         String D = "y";
-        while (D == "y"||D == "Y") {
+        while (D.equals("y") || D.equals("Y")) {
             int num1 = (int) (Math.random() * 10) + 1;
             System.out.println("Guess the number (1-10): ");
             int ans1 = scan.nextInt();
