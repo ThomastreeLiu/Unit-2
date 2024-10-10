@@ -7,8 +7,8 @@ public class GuessNum{
     public static void main (String args[]){
 
         Scanner scan = new Scanner(System.in);
-        String D = "y";
-        while (D.equals("y") || D.equals("Y")) {
+        String continueous = "y";
+        while (continueous.equals("y") || continueous.equals("Y")) {
             int num1 = (int) (Math.random() * 10) + 1;
             System.out.println("Guess the number (1-10): ");
             int ans1 = scan.nextInt();
@@ -20,7 +20,7 @@ public class GuessNum{
             }
             System.out.println("Right! Good job.");
             System.out.println("play again? (y or n)");
-            D = scan.next();
+            continueous = scan.next();
         }
     }
 
