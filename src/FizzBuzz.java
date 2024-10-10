@@ -1,6 +1,6 @@
 //Author:Thomas
 //Name:FizzBuzz
-//Purpose:counting
+//Purpose:simulating a game of fizzbuzz
 
 import java.util.Scanner;
 public class FizzBuzz {
