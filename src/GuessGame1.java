@@ -1,3 +1,7 @@
+//Author:Thomas
+//Name:Guessinggame
+//Purpose:guess number
+
 import java.util.Scanner;
 
 public class GuessGame1 {

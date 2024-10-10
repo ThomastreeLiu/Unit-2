@@ -1,3 +1,7 @@
+//Author:Thomas
+//Name:Riddle
+//Purpose:Guess egg
+
 import java.util.Scanner;
 public class Riddle {
     public static void main(String[] args){
