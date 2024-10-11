@@ -1,6 +1,6 @@
 //Author:Thomas
 //Name:Riddle
-//Purpose:Guess egg
+//Purpose:Guess riddle, the answer is egg
 
 import java.util.Scanner;
 public class Riddle {

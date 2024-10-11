@@ -1,6 +1,6 @@
 //Author:Thomas
 //Name:Guessinggame
-//Purpose:guess number
+//Purpose:guess a number in 100
 
 import java.util.Scanner;
 

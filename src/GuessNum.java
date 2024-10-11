@@ -1,6 +1,6 @@
 //Author:Thomas
 //Name:GuessNum
-//Purpose:guess the number
+//Purpose:guess the in 10
 
 import java.util.Scanner;
 public class GuessNum{
