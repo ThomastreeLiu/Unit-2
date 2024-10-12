@@ -1,3 +1,7 @@
+//Author:Thomas
+//Name:pokemon
+//Purpose:Play a pokemon game
+
 import java.util.Scanner;
 
 public class pokemon {
