@@ -18,16 +18,15 @@ public class pokemon {
                 }
              System.out.println(" Pikachu's HP:\t\t" + pikaHP);
              System.out.println(" Bulbasaur's HP:\t" + bulbaHP);
-             System.out.println("");
 
-             System.out.println("What attack did does the Bulbasaur choose?");
+             System.out.println("\nWhat attack did does the Bulbasaur choose?");
              System.out.println("(1)Seed Bomb ");
              System.out.println("(2)Sludge Bomb ");
              System.out.println("(3)Power Whip ");
 
              System.out.println("Bublasaur's attack? ");
 
-              int choice = scan.nextInt();
+              //int choice = scan.nextInt();
               int rand = (int)(Math.random () * 3) + 1;
 
               if (rand == 1)
