@@ -40,11 +40,15 @@ public class pokemon {
              int winner = (int)(Math.random()*2)+1;
              int pts = (int)(Math.random()*15)+5;
              if (winner == 1){
-                 System.out.println("Pikachu does "+pts+" damage to Bulbasaur");
-                 bulbaHP=bulbaHP-pts;
+                 if (rand==3)
+                     System.out.println("Pikachu does nothing");
+                 else {
+                     System.out.println("Pikachu does " + pts + " damage to Bulbasaur\nPokemon wins");
+                     bulbaHP = bulbaHP - pts;
+                 }
              }
              else if (winner == 2){
-                 System.out.println("Bulbasaur does "+pts+" damage to Pikachu");
+                 System.out.println("Bulbasaur does "+pts+" damage to Pikachu\nBulbasaur wins");
                  pikaHP=pikaHP-pts;
              }
             }
