@@ -27,16 +27,35 @@ public class pokemon {
 
              System.out.println("Bublasaur's attack? ");
 
-             int choice = scan.nextInt();
-             int rand = (int)(Math.random () * 3) + 1;
+              int choice = scan.nextInt();
+              int rand = (int)(Math.random () * 3) + 1;
 
-             if (rand == 1)
-                    System.out.println("Pikachu responds with a _________");
-             else if (rand == 2)
-                    System.out.println("Pikachu responds with a _________");
+              if (rand == 1)
+                    System.out.println("Pikachu responds with a Electro Ball\n");
+              else if (rand == 2)
+                    System.out.println("Pikachu responds with a Thunder Shock\n");
+              else
+                 System.out.println("Pikachu responds with nothing\n");
 
-
+             int winner = (int)(Math.random()*2)+1;
+             int pts = (int)(Math.random()*15)+5;
+             if (winner == 1){
+                 System.out.println("Pikachu does "+pts+" damage to Bulbasaur");
+                 bulbaHP=bulbaHP-pts;
+             }
+             else if (winner == 2){
+                 System.out.println("Bulbasaur does "+pts+" damage to Pikachu");
+                 pikaHP=pikaHP-pts;
+             }
             }
+         System.out.println("\n*****The battle is over!!!*****\n");
+         if (pikaHP<=0)
+             System.out.println("Pikachu has lost the battle!\n"+"Bulbasaur wins the battle!\n");
+         else
+             System.out.println("Bulbasaur has lost the battle!\n"+"Pikachu wins the battle!\n");
+
+         System.out.println("Play again?(y/n)");
+         again= scan.next();
         }
     }
 }
