@@ -13,7 +13,7 @@ public class pokemon {
             int pikaHP = 40;
             int bulbaHP = 40;
             while (pikaHP >= 0 && bulbaHP >= 0){
-                if (pikaHP != 41 || bulbaHP != 41){
+                if (pikaHP < 40 || bulbaHP < 40){
                     System.out.println("***** The battle continues   *****");
                 }
              System.out.println(" Pikachu's HP:\t\t" + pikaHP);
