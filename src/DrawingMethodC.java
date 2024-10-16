@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class DrawingMethodC {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        String word = "";
+        String word;
         int tries = 0;
         letterC();letterA();letterR();
         System.out.println("1. What word is written above? ");
