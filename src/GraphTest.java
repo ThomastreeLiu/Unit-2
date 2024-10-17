@@ -2,35 +2,55 @@ public class GraphTest {
     public static void main(String[] args){
         int i = 1;
         while(1==1) {
-            while (i % 2 == 0) {
-                for (int e = 0; e <= 50; e++)
-                    System.out.println();
+            if (i == 1) {
+                    System.out.println("\n\n\n\n\n\n\n\n\n\n");
                 System.out.println("-------\n|  |  |\n|     |\n|     |\n-------");
                 i=i+1;
+                try {
+                    Thread.sleep(300);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
             }
-            while (i % 3 == 0) {
-                for (int e = 0; e <= 50; e++)
-                    System.out.println();
+            else if (i == 2) {
+                    System.out.println("\n\n\n\n\n\n\n\n\n\n");
                 System.out.println("-------\n|     |\n|  |  |\n|     |\n-------");
                 i=i+1;
+                try {
+                    Thread.sleep(300);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
             }
-            while (i % 5 == 0) {
-                for (int e = 0; e <= 50; e++)
-                    System.out.println();
+            else if (i == 3) {
+                    System.out.println("\n\n\n\n\n\n\n\n\n\n");
                 System.out.println("-------\n|     |\n|     |\n|  |  |\n-------");
                 i=i+1;
+                try {
+                    Thread.sleep(300);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
             }
-            while (i % 7 == 0) {
-                for (int e = 0; e <= 50; e++)
-                    System.out.println();
+            else if (i == 4) {
+                    System.out.println("\n\n\n\n\n\n\n\n\n\n");
                 System.out.println("-------\n|     |\n|  |  |\n|     |\n-------");
                 i=i+1;
+                try {
+                    Thread.sleep(300);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
             }
-            while (i % 13 == 0) {
-                for (int e = 0; e <= 50; e++)
-                    System.out.println();
+            else if (i == 5) {
+                    System.out.println("\n\n\n\n\n\n\n\n\n\n");
                 System.out.println("-------\n|  |  |\n|     |\n|     |\n-------");
-                i=i+1;
+                i=1;
+                try {
+                    Thread.sleep(300);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
             }
         }
     }
