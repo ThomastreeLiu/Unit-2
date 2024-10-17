@@ -5,6 +5,7 @@ public class DrawingMethodC {
         Scanner scan = new Scanner(System.in);
         String word;
         int tries = 0;
+
         letterC();letterA();letterR();
         System.out.println("1. What word is written above? ");
         word = scan.next();
@@ -30,8 +31,8 @@ public class DrawingMethodC {
             word = scan.next();
             tries++;
         }
-        letterT();letterA();letterR();
 
+        letterT();letterA();letterR();
         System.out.println("4. What word is written above? ");
         word = scan.next();
         while(!word.equalsIgnoreCase("tar")){
@@ -39,6 +40,7 @@ public class DrawingMethodC {
             word = scan.next();
             tries++;
         }
+
         letterC();letterA();letterT();
         System.out.println("5. What word is written above? ");
         word = scan.next();
@@ -47,6 +49,7 @@ public class DrawingMethodC {
             word = scan.next();
             tries++;
         }
+
         letterR();letterA();letterT();
         System.out.println("6. What word is written above? ");
         word = scan.next();
@@ -55,6 +58,7 @@ public class DrawingMethodC {
             word = scan.next();
             tries++;
         }
+
         System.out.println("\nS C O R E ");
         System.out.println("You took " + tries + " extra tries to guess the words.");
         if(tries == 0)
@@ -66,6 +70,7 @@ public class DrawingMethodC {
         else
             System.out.println("ASCII art is tricky to read. Better luck next time.");
     }
+
     public static void letterC(){
         System.out.println(" * * *");
         System.out.println(" * ");
