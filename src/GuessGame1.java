@@ -29,5 +29,6 @@ public class GuessGame1 {
             System.out.println("play again? (y or n)");
             continueous = scan.next();
         }
+        System.out.println("Goodbye, thanks for play");
     }
 }

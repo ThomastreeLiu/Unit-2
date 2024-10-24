@@ -26,7 +26,7 @@ public class pokemon {
 
              System.out.println("Bublasaur's attack? ");
 
-              //int choice = scan.nextInt();
+              int choice = scan.nextInt();
               int rand = (int)(Math.random () * 3) + 1;
 
               if (rand == 1)
@@ -42,7 +42,7 @@ public class pokemon {
                  if (rand==3)
                      System.out.println("Pikachu does nothing");
                  else {
-                     System.out.println("Pikachu does " + pts + " damage to Bulbasaur\nPokemon wins");
+                     System.out.println("Pikachu does " + pts + " damage to Bulbasaur\nPikachu wins");
                      bulbaHP = bulbaHP - pts;
                  }
              }
