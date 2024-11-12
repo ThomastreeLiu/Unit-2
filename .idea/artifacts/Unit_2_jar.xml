@@ -2,9 +2,6 @@
   <artifact type="jar" build-on-make="true" name="Unit-2:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/Unit_2_jar</output-path>
     <root id="archive" name="Unit-2.jar">
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$USER_HOME$/Desktop/META-INF/MANIFEST.MF" />
-      </element>
       <element id="module-output" name="Unit-2" />
     </root>
   </artifact>
